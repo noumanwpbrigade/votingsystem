@@ -1,0 +1,91 @@
+
+
+
+.dropdown {
+    width: 25px;
+    position: relative;
+    top: 12px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#logoutbtn {
+    background-color:red;
+    color: #fff;
+    padding: 3px 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 45px;
+    display: none;
+}
+
+.admin-home-flex {
+    display: flex;
+    align-items:start;
+    gap: 10px;
+}
+.right-sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #565656;
+}
+
+.main-content {
+    width: calc(100% - 215px);
+    margin-top: 30px;
+}
+/* right sidebar */
+
+.sidebar-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+}
+
+.sidebar-flex a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar-flex hr {
+    opacity: 0.5;
+}
+
+/* main content conatiner */
+.color-heading {
+    color: #fff;
+    margin: 10px 0;
+    padding: 5px;
+    display: inline-block;
+    background-color: #0791a4;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+/* candidate-form */
+.candidate-form {
+    max-width: 900px;
+    background-color: #fff;
+    position: absolute;
+    left: -150%;
+    transform: translate(-50%, -50%);
+    background-color: #fff ;
+    padding: 15px;
+    box-shadow: 1px 1px 15px #565656;
+    border-radius: 5px;
+
+    top: 50%;
+    opacity: 0;
+    transition: top 200ms ease-in-out,
+                opacity 200ms ease-in-out;
+
+}
+
+/* table */
+
+table {
+    width: 100%;
+    border: 1.5px solid #818181;
+}
