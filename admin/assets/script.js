@@ -12,3 +12,19 @@ function showbtn() {
         logoutbtn.style.display = 'none';
     }
 }
+
+// show hide Add New Candidat form
+
+
+let addbutton = document.getElementById('addnewbtn');
+let candidateform = document.getElementById('candidate-form');
+
+addbutton.addEventListener('click', () => {
+    candidateform.classList.add('candidate-active');
+});
+
+// close button
+
+function closecandidateform() {
+    candidateform.style.display = 'none';
+}

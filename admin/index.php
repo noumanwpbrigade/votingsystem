@@ -11,8 +11,8 @@
         <div class="candidate-form" id="candidate-form">
             <form action="" method="post">
                 
-                <h3 class="form-title">Add New Candidate</h3>
-                <img id="crosse-icon" class="crosse-icon"  src="../assets/images/crossicon.png" alt="crosse">
+                <h3 class="form-title " id="addnew">Add New Candidate</h3>
+                <img id="crosse-btn" class="crosse-icon" onclick="closecandidateform();"  src="../assets/images/crossicon.png" alt="crosse">
                 
                 <label for="" class="fb">Email</label>
                 <div class="form-group">
