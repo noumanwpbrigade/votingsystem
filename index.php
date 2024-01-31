@@ -30,7 +30,7 @@ The voting system is a comprehensive and user-friendly platform designed to faci
             <label for="" class="fb">Email</label>
             <div class="form-group">
                 <img class="icon" src="assets/images/email.png" alt="">
-                <input type="email" class="form-control" placeholder="Enter email">
+                <input type="email" name="email" class="form-control" placeholder="Enter email">
             </div>
             <label for="" class="fb">Password</label>
             <div class="form-group">
@@ -40,14 +40,27 @@ The voting system is a comprehensive and user-friendly platform designed to faci
             <label for="" class="fb">Login As</label>
             <div class="form-group">
                 <img class="icon" src="assets/images/roleicon.png" alt="">
-                <select name="" id="" class="select-tag">
-                    <option value="">Voter</option>
-                    <option value="">Admin</option>
+                <select name="role" id="" class="select-tag">
+                    <option value="voter">Voter</option>
+                    <option value="admin">Admin</option>
                 </select>
             </div>
             <input type="submit" name="login" class="form-btn" value="Logoin">
             <!-- <a href="login.php" class="form">Login</a> -->
         </form>
     </div>
+   
     <div style="height: 100vh;"></div>
-<?php include 'footer.php'; ?>
+<?php include 'footer.php'; 
+
+
+
+
+
+
+
+
+
+
+
+?>

@@ -22,7 +22,7 @@
 
 .admin-home-flex {
     display: flex;
-    align-items:start;
+    align-items:start ;
     gap: 10px;
 }
 .right-sidebar {
@@ -34,6 +34,7 @@
 .main-content {
     width: calc(100% - 215px);
     margin-top: 30px;
+    align-self: flex-start;
 }
 /* right sidebar */
 
@@ -101,5 +102,90 @@
 
 table {
     width: 100%;
-    border: 1.5px solid #818181;
+    border: 1.5px solid #000;
 }
+
+thead {
+    background-color: #00000094;
+    text-align: left;
+    color: #fff;
+}
+th {
+    padding: 5px;
+}
+
+td {
+    border: 1px solid #818181;
+    text-align: center;
+    padding: 5px;
+}
+
+.symbol_image {
+    width: 50px;
+    height: 50px
+    ;
+}
+
+/* error message with "Add New" button */
+/* error message with "Add New" button */
+#close-error {
+    background-color: red;
+    padding: 3px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+
+.error-sms-container {
+    color: red;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+  }
+  .btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  .btn-danger:hover {
+    color: #fff;
+    background-color: #bb2d3b;
+    border-color: #b02a37;
+  }
+
+.btn-danger,
+.btn-primary {
+    padding: 3px 8px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hide-error-div {
+    display: none;
+    opacity: 0;
+}
+
+
+/* edit candidate form */
+
+.edit-form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.edit-img {
+    width:200px;
+    height: 200px;
+}
+

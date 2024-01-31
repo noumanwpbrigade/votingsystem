@@ -18,7 +18,7 @@ body {
 .container {
     max-width: 1180px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 0;
 }
 
 .flex {
@@ -56,6 +56,10 @@ body {
 .profile-image {
     width: 25px;
     height: 25px;
+}
+
+.form-control {
+    width: 90%;
 }
 /* end utilities */
 /* main index header */
@@ -228,7 +232,32 @@ a.btn.btn-register {
 
 }
 
+.alert {
+    position: relative;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    justify-content: space-between;
+}
 
+.alert-danger {
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+  }
+
+.alert-success {
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+  }
+
+#hide-session {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
 
 /* footer */
 
